@@ -1,6 +1,6 @@
 # Amazon-Reviews-LLM-Binary-Classification
 
-In this repository we use `distilbert-base-uncased`, a smaller, fast and light (distilled) than the original Google's `BERT` architecture. it is an encoder model, which makes it ideal for applications of language understanding such as text classification.
+In this repository we use `distilbert-base-uncased`. This model is a smaller, faster, and lighter distilled version of Google's original BERT architecture. As an encoder-only model, it is ideal for language understanding tasks such as text classification.
 
 ## Environmet Setup
 
