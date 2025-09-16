@@ -1,6 +1,11 @@
 # Amazon-Reviews-Binary-Classification-Using-LLM
 
-In this repository we use `distilbert-base-uncased` for binary classification (positive/negative) of amazon reviews. The model is a smaller, faster, and lighter distilled version of Google's original BERT architecture. As an encoder-only model, it is ideal for language understanding tasks such as text classification. We train the model in a jupyter notebook and save the weights, the we make inferences loading the trained model in other notebook.
+In this repository we use `distilbert-base-uncased` for binary classification (positive/negative) of amazon reviews. The model is a smaller, faster, and lighter distilled version of Google's original BERT architecture, and was released under the license Apache 2.0 allowing to free use, modify and integration in comercial software. As an encoder-only model, it is ideal for language understanding tasks such as text classification. We train the model in a jupyter notebook and save the weights, the we make inferences loading the trained model in other notebook.
+
+
+In this repository we set and test Phi-3-mini-4k-instruct, a Microsoft's relatively small LLM. This model was released under the open source MIT license, 
+
+
 
 ## Environmet Setup
 
