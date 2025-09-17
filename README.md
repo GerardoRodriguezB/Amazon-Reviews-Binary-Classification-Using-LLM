@@ -1,5 +1,7 @@
 # Amazon-Reviews-Binary-Classification-Using-LLM
 
+<img src="distilbert.png" alt="SIGN" width="500" />
+
 In this repository we use `distilbert-base-uncased` for binary classification (positive/negative) of amazon reviews. The model is a smaller, faster, and lighter distilled version of Google's original BERT architecture, and was released under the license Apache 2.0 allowing to free use, modify and integration in comercial software. As an encoder-only model, it is ideal for language understanding tasks such as text classification. We train the model in a jupyter notebook and save the weights, the we make inferences loading the trained model in other notebook.
 
 
@@ -35,6 +37,8 @@ The full dataset consists of 4 million reviews. We utilize two randomly sampled 
 ## Testing the Model
 
 We evaluate the model in a new 1,000 randomly sampled subset. Here we show the confussion matrix.
+
+<img src="confussion_matrix.png" alt="MATRIX" width="500" />
 
 
 
